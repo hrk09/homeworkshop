@@ -11,7 +11,10 @@ False, None, True, and, as, assert, break, class, continue, def, del, elif, else
 ### 2.
 
 ```python
-round(a, 1) == b
+import math
+a = 0.1 * 3
+b = 0.3
+print(math.isclose(a, b))
 ```
 
 

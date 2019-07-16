@@ -36,6 +36,8 @@ print('"파일은 C:\Windows\\Users\\내문서\\Python에 저장이 되어있습
 ### 3번
 
 ```python
+import math
+
 print('ax^2 + bx + c = 0')
 
 a = float(input('a: '))
