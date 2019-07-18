@@ -28,3 +28,13 @@ def Palindrome(word):
 print(Palindrome('amama'))
 ```
 
+
+
+```python
+# 3번째 방법
+def Palindrome(word):
+    return True if list(word) == list(reversed(word)) else False
+
+print(Palindrome('level'))
+```
+
